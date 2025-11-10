@@ -185,6 +185,7 @@ button {
     padding-bottom: 14px;
     line-height: 1.6;
     text-align: left;
+    font-size: 17px;
 }
 
 #about-text button{
@@ -211,7 +212,7 @@ button {
 /*cv*/
 #cv {
     color: white;
-    padding-left: 18vw;
+    padding-left: 20vw;
     padding-right: 18vw;
     padding-top: 100px;
     padding-bottom: 30px;
@@ -237,7 +238,11 @@ button {
     font-weight: lighter;
 }
 
-#work-text h4 {
+#cv p {
+    font-size: 16.5px;
+}
+
+.position h4 {
     border-bottom-style: solid;
     border-bottom-color: #aa91af;
     width: fit-content;
@@ -245,7 +250,7 @@ button {
 }
 
 #cv h5 {
-    font-size: 16px;
+    font-size: 17px;
     font-family: sans-serif;
     font-style: bold;
     font-weight: lighter;
@@ -254,6 +259,7 @@ button {
 #cv li {
     font-family: sans-serif;
     line-height: 1.6;
+    font-size: 16.5px;
 }
 
 #cv li::marker {
@@ -278,25 +284,25 @@ button {
     padding-bottom: 130px;
 }
 
-#muse, #mlh, #maze-bot, #tabs, #armv8, #sac {
+.project {
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-#muse img, #mlh img, #maze-bot img, #tabs img, #armv8 img, #sac img{
+.project img{
     height: 150px;
     width : 150px;
     object-fit: cover;
     border-radius: 50%;
-    padding-top: 0px;
+    margin-top: 30px;
 }
 
-#muse-text, #mlh-text, #maze-text, #tabs-text, #armv8-text, #sac-text {
+.project-text {
     padding-left: 80px;
 }
 
-#muse-text h3, #mlh-text h3, #maze-text h3, #tabs-text h3, #armv8-text h3, #sac-text h3 {
+.project-text h3 {
     font-family: 'Trebuchet MS';
     font-size: 26px;
     padding-bottom: 7px;
@@ -308,15 +314,16 @@ button {
     font-weight: lighter;
 }
 
-#muse-text p, #mlh-text p, #maze-text p, #tabs-text p, #armv8-text p, #sac-text {
+.project-text p {
     font-family: sans-serif;
+    font-size: 16.5px;
 }
 
 #muse-text {
     display: block;
 }
 
-#muse-btns button, #maze-btns button, #mlh-btns button, #tabs-btns button, #armv8-btns button, #sac-btns button {
+.project-btns button {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -328,12 +335,12 @@ button {
     text-align: center;
 }
 
-#muse-text p, #mlh-text p, #maze-text p, #tabs-text p, #armv8-text p, #sac-text p {
+.project-text p {
     padding-bottom: 7px;
     line-height: 1.7;
 }
 
-#muse-btns a, #mazebtns a, #mlh-btns a, #tabs-btns a, #armv8-btns a, #sac-btns a {
+.project-btns a {
     padding-right: 40px;
 }
 
